@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .header{
+                padding: 2rem;
+                margin: 1rem 0px;
+                text-align: center;
+                background-color: black;
+                color: whitesmoke;
+            }
+            .gallery {
+                display: flex;
+                flex-wrap: wrap;
+    
+            }
+            .gallery-item {
+                flex: 0 0 25%; /* Adjust this value to change the number of images per row */
+                padding: 10px;
+                box-sizing: border-box;
+            }
+            .gallery-item img {
+                max-width: 100%;
+                height: auto;
+                cursor: pointer;
+            }
+            
+            /* Lightbox Styles */
+
+            .lightbox {
+                position: fixed;
+                top: 0;
+                left: 0;      
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.8);
+                display: none;
+                justify-content: center;
+                align-items: center;
+                z-index: 999;
+            }
+            .lightbox img {
+                max-height: 90vh;
+                max-width: 90vw;
+            }
+            .next{
+                background-color: black;
+                color:white;
+            } 
+            .previous{
+                background-color: white;
+                color:black;
+            }
+        </style>
+    </head>
+    <body>
+        <header class ="header">
+            <h1 class ="title">Aami</h1>
+            <p class="description"><i><b>I am a lover of love , and a maker of beauty</b></p>
+        </header>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="Aami 1.jpeg" alt="Aami 1">
+            </div>
+            <div class="gallery-item">
+                <img src="Aami 11.jpg" alt="Aami 2">
+            </div>
+            <div class="gallery-item">
+                <img src="Aami 3.jpg" alt="Aami 3">
+            </div>
+            <div class="gallery-item">
+                <img src="Aami 4.jpg" alt="Aami 4">
+            </div>
+            <div class="gallery-item">
+                <img src="Aami 5.jpg" alt="Aami 5">
+            </div>
+            <div class="gallery-item">
+                <img src="Aami 6.jpg" alt="Aami 6">
+            </div>
+            <div class="gallery-item">
+                <img src="Aami 7.jpg" alt="Aami 7">
+            </div>
+            <div class="gallery-item">
+                <img src="Aami 8.jpg" alt="Aami 8">
+            </div>
+            <div class="gallery-item">
+                <img src="Aami 9.jpg" alt="Aami 9">
+            </div>
+            <div class="gallery-item">
+                <img src="Aami.jpg" alt="Aami 10">
+            </div>
+            <div class="gallery-item">
+                <img src="Aami 12.jpg" alt="Aami 12">
+            </div>
+            <div class="gallery-item">
+                <img src="Aami 13.jpg" alt="Aami 13">
+            </div>
+            <div class="gallery-item">
+                <img src="Aami 14.jpg" alt="Aami 14">
+            </div>
+            <div class="gallery-item">
+                <img src="Aami 15.jpg" alt="Aami 15">
+            </div>
+            <div class="gallery-item">
+                <img src="Aami 16.jpg" alt="Aami 16">
+            </div>
+        </div>
+        <br>
+          <!-- Lightbox Container -->
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="Tribute page.html" class="previous" style="padding: 1rem;">Home</a>
+            <a href="Tp.html" class="next" style="padding: 1rem;">Previous</a>
+        </div>
+    </body>
+</html>
